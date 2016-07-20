@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0BC0EABC-89C0-4B36-9F30-C99A1F19413D}</ProjectGuid>
+    <ProjectGuid>{793D89F1-FED6-4BD8-BDC5-F8200A8B8997}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GenericApp</RootNamespace>
@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMultiDictionary.cs" />
+    <Compile Include="Int.cs" />
+    <Compile Include="KeyAttribute.cs" />
+    <Compile Include="KeyAttributeDoesNotFountException.cs" />
+    <Compile Include="MultiDictionary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
